@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo code</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        h1:hover{
+            background-color: yellowgreen;
+            color:firebrick;
+            font-weight: 900;
+        }
+        .middle-focus:focus{
+            color: blue;
+            font-weight: inherit;
+            background-color: tomato;
+        }
+        a:visited{
+            color:green;
+        }
+        li:first-child{
+            background-color: steelblue;
+            color: springgreen;
+        }
+        li:last-child{
+            background-color: bisque;
+            color: brown;
+        }
+        li:nth-child(2n){
+            background-color: yellow;
+        }
+        li:nth-child(2n+1)
+        {
+            background-color: blue;
+
+        }
+        h3::before{
+            content: 'hello';
+            background-color: brown;
+            color: white;
+        }
+        h3::after{
+            content: 'good bye';
+            background-color: yellow;
+            color:turquoise;
+        }
+        .special{
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>this is normal</h1>
+    <input type="text">
+    <input class="middle-focus" type="text">
+    <input type="text">
+    <br>
+    <a href="https://web.programming-hero.com/web-6/post/web-6-text-instruction-important-module-5-5-bonus-box-model-pseudo-class-position">visited
+    </a>
+    <a href="https://dfa.gov.ph/">no visited</a>
+    <ul>
+        <li>a</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+        <li>g</li>
+        <li>a</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+        <li>g</li>
+    </ul>
+    <h3 class="special">rabbi -1</h3>
+    <h3>rabbi -2</h3>
+    <h3>rabbi -3</h3>
+    <h3>rabbi -4</h3>
+    <h3>rabbi -5</h3>
+    <h3>rabbi -6</h3>
+</body>
+</html>
